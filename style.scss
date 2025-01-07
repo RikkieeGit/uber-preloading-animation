@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "Uber Move";
+  src: url("./UberMoveBold.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #010000;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper-header {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper-header h2 {
+  font-size: 100px;
+  font-family: "Uber Move";
+  color: white;
+  z-index: 0;
+}
+
+.animation {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 1;
+}
+
+.animation-left {
+  height: 100%;
+  background-color: white;
+}
+
+.animation-right {
+  height: 100%;
+  background-color: white;
+}
